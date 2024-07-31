@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">About Us</h1>
+        
+        <section class="mb-5">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide the best service to our customers. We strive to exceed expectations and deliver high-quality results.</p>
+        </section>
+        
+        <section class="mb-5">
+            <h2>Our Team</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{% static 'images/team_member_1.jpg' %}" class="img-fluid rounded-circle mb-2" alt="Team Member 1">
+                    <h5>John Doe</h5>
+                    <p>CEO</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="{% static 'images/team_member_2.jpg' %}" class="img-fluid rounded-circle mb-2" alt="Team Member 2">
+                    <h5>Jane Smith</h5>
+                    <p>CTO</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="{% static 'images/team_member_3.jpg' %}" class="img-fluid rounded-circle mb-2" alt="Team Member 3">
+                    <h5>Mike Johnson</h5>
+                    <p>COO</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="mb-5">
+            <h2>Our Values</h2>
+            <ul>
+                <li>Integrity</li>
+                <li>Innovation</li>
+                <li>Customer Satisfaction</li>
+            </ul>
+        </section>
+        
+        <section class="mb-5">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us for more information or any inquiries.</p>
+            <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>Phone: +123-456-7890</p>
+        </section>
+    </div>
+</body>
+</html>
